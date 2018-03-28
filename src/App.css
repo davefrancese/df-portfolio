@@ -1,0 +1,94 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+}
+
+/*
+
+  OFF-BLACK: #222;
+  OFF-WHITE: #F2EFE7;
+  GREY: #525252;
+  BLUE: #9498FF;
+  RED: #FF7F90;
+
+  */
+
+body {
+  margin: 30px;
+  background: #F2EFE7;
+}
+
+/* ----- HEADER ----- */
+
+.Header {
+  letter-spacing: 20px;
+  color: #222;
+  margin-top: 50px;
+}
+
+.social {
+  float: right;
+  letter-spacing: normal;
+  text-align: center;
+  margin-right: 40px;
+  margin-top: -10px;
+}
+
+.social a {
+  padding-right: 10px;
+  font-size: 1.2rem;
+  color: #9498FF;
+  margin-top: -100px;
+}
+
+.social a:hover {
+  color: #FF7F90;
+}
+
+.df {
+  margin-top: 20px;
+}
+
+.sub {
+  letter-spacing: 10px;
+  margin-top: -20px;
+}
+
+.slash {
+  letter-spacing: 20px;
+  color: #ff7f90;
+}
+
+/* ----- BIO -----  */
+
+.Bio {
+  margin: 100px 50px;
+  letter-spacing: 5px;
+  line-height: 40px;
+  text-align: justify;
+}
+
+/* ----- PROJECTS ----- */
+
+.Projects {
+  margin: 100px 50px;
+}
+
+.Projects h3 {
+  letter-spacing: 20px;
+}
+
+img {
+  max-width: 300px;
+}
+
+.back {
+  text-decoration: none;
+  color: #9498FF;
+  font-size: 1rem;
+  margin-left: 20px;
+}
+
+.back:hover {
+  color: #FF7F90;
+}
