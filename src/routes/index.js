@@ -26,8 +26,7 @@ class index extends React.Component {
           ],
           designImages: [],
           solo: true,
-          contributions:
-            "Synth Lab was a solo project. Everything was designed and developed by solely myself."
+          contributions: ""
         },
         {
           id: 1,
@@ -62,8 +61,7 @@ class index extends React.Component {
           ],
           designImages: [],
           solo: false,
-          contributions:
-            "In this mammoth of a project, my skills were used to sort the data. Specifically gather all the speed tests that had been run and display the users rank according to their ISP and also gather each ISP's average test results and rank them compared to other ISPs. I did not play any role in the CSS of this project."
+          contributions: ""
         },
         {
           id: 2,
@@ -98,8 +96,7 @@ class index extends React.Component {
           ],
           designImages: [],
           solo: false,
-          contributions:
-            "I had my hand in every aspect of this project, from building the server, database, schemas, queries, to everything in between. I also designed the logo!"
+          contributions: ""
         },
         {
           id: 3,
@@ -118,8 +115,7 @@ class index extends React.Component {
           ],
           designImages: [],
           solo: true,
-          contributions:
-            "MOOD. was a solo project. Everything was designed and developed by solely myself."
+          contributions: ""
         },
         {
           id: 4,
@@ -148,8 +144,7 @@ class index extends React.Component {
           ],
           designImages: [],
           solo: false,
-          contributions:
-            "Angular Inbox was a solo project. Everything was designed and developed by solely myself."
+          contributions: ""
         },
         {
           id: 5,
@@ -182,8 +177,7 @@ class index extends React.Component {
           ],
           designImages: [],
           solo: true,
-          contributions:
-            "TODO was a solo project. Everything was designed and developed by solely myself."
+          contributions: ""
         },
         {
           id: 6,
@@ -206,8 +200,7 @@ class index extends React.Component {
             "../images/MEGPage.jpg"
           ],
           solo: true,
-          contributions:
-            "The Mood Energy Guide was a solo project. Everything was designed by solely myself."
+          contributions: ""
         },
         {
           id: 7,
@@ -225,18 +218,17 @@ class index extends React.Component {
             "../images/tonicLogoFull.jpg"
           ],
           solo: true,
-          contributions:
-            "Tonic was a solo project. Everything was designed by solely myself."
+          contributions: ""
         },
         {
           id: 8,
           type: "Web Development",
           title: "Emaily",
-          posterURL: "../images/emaily.png",
+          posterURL: "../images/emaily2.jpg",
           link: "https://df-emaily.herokuapp.com",
           github: "https://github.com/davefrancese/emaily-server",
           description:
-            "An app that allows users to login via Google, pay for credits to send surveys to a list of emails. Users can see survey feedback from their users.",
+            "Login via Google+ and start sending surveys to your users to get feedback to see how people are liking your services. Emaily accepts credit cards thanks to Stripe handling all the payments. As soon as you pay for credits, start a survey campaign and get feedback from as many emails as you would like. See the survey results directly in your Dashboard.",
           tech: [
             "HTML5",
             "CSS3",
@@ -264,8 +256,59 @@ class index extends React.Component {
           ],
           designImages: [],
           solo: false,
-          contributions:
-            "This app was built in conjunction with a Udemy course."
+          contributions: ""
+        },
+        {
+          id: 9,
+          type: "Web Development",
+          title: "Goal Coach",
+          posterURL: "../images/peak.jpg",
+          link: "https://df-goal-coach.firebaseapp.com/signin",
+          github: "https://github.com/davefrancese/goal-coach",
+          description:
+            "Goal Coach allows for multiple users to sign on and see goals that their team wants to reach. It shows the goal and who added the goal. Anyone can add or complete these goals. Just log in with your email and a password and let people know what you want to accomplish!",
+          tech: ["HTML5", "CSS3", "JavaScript", "React + Redux"],
+          techImages: [
+            "../images/html5.png",
+            "../images/css3.png",
+            "../images/js.png",
+            "../images/react.png",
+            "../images/redux.png",
+            "../images/firebase.png"
+          ],
+          designImages: [],
+          solo: true,
+          contributions: ""
+        },
+        {
+          id: 10,
+          type: "Web Development",
+          title: "Reminder Pro",
+          posterURL: "../images/elephant.jpg",
+          link: "https://df-reminder-pro.firebaseapp.com/",
+          github: "https://github.com/davefrancese/reminder-pro",
+          description:
+            "Never forget an event or task you have coming up. Reminder Pro allows users to add as many reminders as they would like, along with a date that the event or task is coming up. Even after navigating away from Reminder Pro, users' reminders will be there whenever they return. Visit Reminder Pro and never forget!",
+          tech: [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "React + Redux",
+            "Firebase",
+            "Moment"
+          ],
+          techImages: [
+            "../images/html5.png",
+            "../images/css3.png",
+            "../images/js.png",
+            "../images/react.png",
+            "../images/redux.png",
+            "../images/firebase.png",
+            "../images/moment.png"
+          ],
+          designImages: [],
+          solo: true,
+          contributions: ""
         }
       ]
     };
