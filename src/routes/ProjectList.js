@@ -5,12 +5,18 @@ class ProjectList extends React.Component {
   render() {
     return (
       <div>
-        {this.props.projects.map(project =>
-          <Project
-            key={project.id}
-            project={project}
-          />
-        )}
+        <div className="ProjectList-title">
+          <h2>PROJECTS</h2>
+          <p className="slash">////////////</p>
+        </div>
+        <div className="ProjectList">
+          {this.props.projects.map(project =>
+            <Project
+              key={project.id}
+              project={project}
+            />
+          )}
+        </div>
       </div>
     )
   }
