@@ -1,5 +1,6 @@
+/* main css */
 * {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   text-decoration: none;
 }
 
@@ -15,7 +16,7 @@
 
 body {
   margin: 20px;
-  background: #F2EFE7;
+  background: #f2efe7;
 }
 
 /* ----- HEADER ----- */
@@ -36,12 +37,12 @@ body {
 .social a {
   padding-right: 10px;
   font-size: 1.2rem;
-  color: #9498FF;
+  color: #9498ff;
   margin-top: -100px;
 }
 
 .social a:hover {
-  color: #FF7F90;
+  color: #ff7f90;
 }
 
 .df {
@@ -84,7 +85,8 @@ body {
   object-fit: cover;
 }
 
-.Project img, h3 {
+.Project img,
+h3 {
   transition: opacity 0.5s ease-out;
 }
 
@@ -127,13 +129,13 @@ body {
 
 .back {
   text-decoration: none;
-  color: #9498FF;
+  color: #9498ff;
   font-size: 1.5rem;
   margin-top: 20px;
 }
 
 .back:hover {
-  color: #FF7F90;
+  color: #ff7f90;
 }
 
 /* ----- PROJECT TEMPLATE ----- */
@@ -181,11 +183,11 @@ body {
 }
 
 .ProjectTemplate a {
-  color: #9498FF;
+  color: #9498ff;
 }
 
 .ProjectTemplate a:hover {
-  color: #FF7F90;
+  color: #ff7f90;
 }
 
 .design-image-list {
@@ -212,7 +214,7 @@ body {
 }
 
 .Contact h2 {
-  letter-spacing: 20px
+  letter-spacing: 20px;
 }
 
 .contact-content {
@@ -220,11 +222,11 @@ body {
 }
 
 .contact-content a {
-  color: #9498FF;
+  color: #9498ff;
 }
 
 .contact-content a:hover {
-  color: #FF7F90;
+  color: #ff7f90;
 }
 
 .icon {
