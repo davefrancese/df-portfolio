@@ -7,7 +7,7 @@ class Contact extends React.Component {
         <h2>CONTACT</h2>
         <p className="slash">////////////</p>
         <div className="contact-content">
-          <h4 className="contact-title">Drop me a line!</h4>
+          {/* <h4 className="contact-title">Drop me a line!</h4> */}
           <p>
             <a href="mailto:davefrancese@gmail.com">
               <i className="fas fa-envelope-square icon" />davefrancese@gmail.com

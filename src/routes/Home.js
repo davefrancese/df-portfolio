@@ -11,7 +11,7 @@ class Home extends React.Component {
     this.state = {
       projects: [
         {
-          id: 8,
+          id: 0,
           type: "Web Development",
           title: "Emaily",
           posterURL: "../images/emaily2.jpg",
@@ -49,7 +49,7 @@ class Home extends React.Component {
           contributions: ""
         },
         {
-          id: 9,
+          id: 1,
           type: "Web Development",
           title: "Goal Coach",
           posterURL: "../images/peak.jpg",
@@ -71,7 +71,7 @@ class Home extends React.Component {
           contributions: ""
         },
         {
-          id: 10,
+          id: 2,
           type: "Web Development",
           title: "Reminder Pro",
           posterURL: "../images/elephant.jpg",
@@ -101,7 +101,7 @@ class Home extends React.Component {
           contributions: ""
         },
         {
-          id: 0,
+          id: 3,
           type: "Web Development",
           title: "Synth Lab",
           posterURL: "../images/synth.jpg",
@@ -113,14 +113,14 @@ class Home extends React.Component {
           techImages: [
             "../images/html5.png",
             "../images/css3.png",
-            "../images/javascript.png",
+            "../images/js.png",
             "../images/react.png"
           ],
           solo: true,
           contributions: ""
         },
         {
-          id: 1,
+          id: 4,
           type: "Web Development",
           title: "Sleuth",
           posterURL: "../images/sloth.jpg",
@@ -142,11 +142,11 @@ class Home extends React.Component {
           techImages: [
             "../images/html5.png",
             "../images/css3.png",
-            "../images/javascript.png",
+            "../images/js.png",
             "../images/react.png",
             "../images/node.png",
             "../images/express.png",
-            "../images/pg.png",
+            "../images/postgresql.png",
             "../images/knex.png",
             "../images/chrome.png"
           ],
@@ -154,7 +154,7 @@ class Home extends React.Component {
           contributions: ""
         },
         {
-          id: 2,
+          id: 5,
           type: "Web Development",
           title: "Fable Forum",
           posterURL: "../images/fable.jpg",
@@ -175,7 +175,7 @@ class Home extends React.Component {
           techImages: [
             "../images/html5.png",
             "../images/css3.png",
-            "../images/javascript.png",
+            "../images/js.png",
             "../images/node.png",
             "../images/express.png",
             "../images/pg.png",
@@ -186,7 +186,7 @@ class Home extends React.Component {
           contributions: ""
         },
         {
-          id: 3,
+          id: 6,
           type: "Web Development",
           title: "MOOD.",
           posterURL: "../images/mood.jpg",
@@ -198,41 +198,13 @@ class Home extends React.Component {
           techImages: [
             "../images/html5.png",
             "../images/css3.png",
-            "../images/javascript.png"
+            "../images/js.png"
           ],
           solo: true,
           contributions: ""
         },
         {
-          id: 4,
-          type: "Web Development",
-          title: "Angular Inbox",
-          posterURL: "../images/inbox.jpg",
-          link: "https://angular-inbox-5739b.firebaseapp.com/",
-          github: "https://github.com/davefrancese/inbox",
-          description:
-            "As a human being living in the states we are always checking emails without a thought of the actual functionality of the inbox. As a developer, I had to try it out for myself!",
-          tech: [
-            "HTML5",
-            "CSS3",
-            "JavaScript",
-            "AngularJS",
-            "Node.js",
-            "Express"
-          ],
-          techImages: [
-            "../images/html5.png",
-            "../images/css3.png",
-            "../images/javascript.png",
-            "../images/angular.png",
-            "../images/node.png",
-            "../images/express.png"
-          ],
-          solo: false,
-          contributions: ""
-        },
-        {
-          id: 5,
+          id: 7,
           type: "Web Development",
           title: "TODO",
           posterURL: "../images/todo.jpg",
@@ -253,7 +225,7 @@ class Home extends React.Component {
           techImages: [
             "../images/html5.png",
             "../images/css3.png",
-            "../images/javascript.png",
+            "../images/js.png",
             "../images/node.png",
             "../images/express.png",
             "../images/pg.png",
@@ -264,7 +236,7 @@ class Home extends React.Component {
           contributions: ""
         },
         {
-          id: 6,
+          id: 8,
           type: "Graphic Design",
           title: "Moon Energy Guide",
           posterURL: "../images/MEGLogo.jpg",
@@ -281,25 +253,25 @@ class Home extends React.Component {
           ],
           solo: true,
           contributions: ""
-        },
-        {
-          id: 7,
-          type: "Graphic Design",
-          title: "Tonic",
-          posterURL: "../images/tonicLogo.jpg",
-          link: "",
-          github: "",
-          description:
-            "A logo for the simple, collected, and clean living lifestyle that this journal provides. Dive into this holistic approach on a day to day basis! From organic recipes to non-toxic home supplies, or just food for thought.",
-          tech: ["Adobe Illustrator", "Adobe Photoshop"],
-          techImages: ["../images/photoshop.png", "../images/illustrator.png"],
-          designImages: [
-            "../images/tonicLogo.jpg",
-            "../images/tonicLogoFull.jpg"
-          ],
-          solo: true,
-          contributions: ""
         }
+        // {
+        //   id: 9,
+        //   type: "Graphic Design",
+        //   title: "Tonic",
+        //   posterURL: "../images/tonicLogo.jpg",
+        //   link: "",
+        //   github: "",
+        //   description:
+        //     "A logo for the simple, collected, and clean living lifestyle that this journal provides. Dive into this holistic approach on a day to day basis! From organic recipes to non-toxic home supplies, or just food for thought.",
+        //   tech: ["Adobe Illustrator", "Adobe Photoshop"],
+        //   techImages: ["../images/photoshop.png", "../images/illustrator.png"],
+        //   designImages: [
+        //     "../images/tonicLogo.jpg",
+        //     "../images/tonicLogoFull.jpg"
+        //   ],
+        //   solo: true,
+        //   contributions: ""
+        // }
       ]
     };
   }
@@ -308,7 +280,7 @@ class Home extends React.Component {
     return (
       <div>
         <Header />
-        <Bio />
+        {/* <Bio /> */}
         <ProjectList projects={this.state.projects} />
         <Contact />
       </div>
@@ -317,3 +289,32 @@ class Home extends React.Component {
 }
 
 export default Home;
+
+// {
+//   id: 4,
+//   type: "Web Development",
+//   title: "Angular Inbox",
+//   posterURL: "../images/inbox.jpg",
+//   link: "https://angular-inbox-5739b.firebaseapp.com/",
+//   github: "https://github.com/davefrancese/inbox",
+//   description:
+//     "As a human being living in the states we are always checking emails without a thought of the actual functionality of the inbox. As a developer, I had to try it out for myself!",
+//   tech: [
+//     "HTML5",
+//     "CSS3",
+//     "JavaScript",
+//     "AngularJS",
+//     "Node.js",
+//     "Express"
+//   ],
+//   techImages: [
+//     "../images/html5.png",
+//     "../images/css3.png",
+//     "../images/js.png",
+//     "../images/angular.png",
+//     "../images/node.png",
+//     "../images/express.png"
+//   ],
+//   solo: false,
+//   contributions: ""
+// },
