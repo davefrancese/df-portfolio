@@ -11,14 +11,14 @@ class Home extends React.Component {
     this.state = {
       projects: [
         {
-          id: 8,
+          id: 0,
           type: "Web Development",
           title: "Emaily",
-          posterURL: "../images/emaily.png",
+          posterURL: "../images/emaily2.jpg",
           link: "https://df-emaily.herokuapp.com",
           github: "https://github.com/davefrancese/emaily-server",
           description:
-            "An app that allows users to login via Google, pay for credits to send surveys to a list of emails. Users can see survey feedback from their users.",
+            "Login via Google+ and start sending surveys to your users to get feedback to see how people are liking your services. Emaily accepts credit cards thanks to Stripe handling all the payments. As soon as you pay for credits, start a survey campaign and get feedback from as many emails as you would like. See the survey results directly in your Dashboard.",
           tech: [
             "HTML5",
             "CSS3",
@@ -46,11 +46,62 @@ class Home extends React.Component {
           ],
           designImages: [],
           solo: false,
-          contributions:
-            "This app was built in conjunction with a Udemy course."
+          contributions: ""
         },
         {
-          id: 0,
+          id: 1,
+          type: "Web Development",
+          title: "Goal Coach",
+          posterURL: "../images/peak.jpg",
+          link: "https://df-goal-coach.firebaseapp.com/signin",
+          github: "https://github.com/davefrancese/goal-coach",
+          description:
+            "Goal Coach allows for multiple users to sign on and see goals that their team wants to reach. It shows the goal and who added the goal. Anyone can add or complete these goals. Just log in with your email and a password and let people know what you want to accomplish!",
+          tech: ["HTML5", "CSS3", "JavaScript", "React + Redux", "Firebase"],
+          techImages: [
+            "../images/html5.png",
+            "../images/css3.png",
+            "../images/js.png",
+            "../images/react.png",
+            "../images/redux.png",
+            "../images/firebase.png"
+          ],
+          designImages: [],
+          solo: true,
+          contributions: ""
+        },
+        {
+          id: 2,
+          type: "Web Development",
+          title: "Reminder Pro",
+          posterURL: "../images/elephant.jpg",
+          link: "https://df-reminder-pro.firebaseapp.com/",
+          github: "https://github.com/davefrancese/reminder-pro",
+          description:
+            "Never forget an event or task you have coming up. Reminder Pro allows users to add as many reminders as they would like, along with a date that the event or task is coming up. Even after navigating away from Reminder Pro, users' reminders will be there whenever they return. Visit Reminder Pro and never forget!",
+          tech: [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "React + Redux",
+            "Firebase",
+            "Moment"
+          ],
+          techImages: [
+            "../images/html5.png",
+            "../images/css3.png",
+            "../images/js.png",
+            "../images/react.png",
+            "../images/redux.png",
+            "../images/firebase.png",
+            "../images/moment.png"
+          ],
+          designImages: [],
+          solo: true,
+          contributions: ""
+        },
+        {
+          id: 3,
           type: "Web Development",
           title: "Synth Lab",
           posterURL: "../images/synth.jpg",
@@ -62,15 +113,14 @@ class Home extends React.Component {
           techImages: [
             "../images/html5.png",
             "../images/css3.png",
-            "../images/javascript.png",
+            "../images/js.png",
             "../images/react.png"
           ],
           solo: true,
-          contributions:
-            "Synth Lab was a solo project. Everything was designed and developed by solely myself."
+          contributions: ""
         },
         {
-          id: 1,
+          id: 4,
           type: "Web Development",
           title: "Sleuth",
           posterURL: "../images/sloth.jpg",
@@ -92,20 +142,19 @@ class Home extends React.Component {
           techImages: [
             "../images/html5.png",
             "../images/css3.png",
-            "../images/javascript.png",
+            "../images/js.png",
             "../images/react.png",
             "../images/node.png",
             "../images/express.png",
-            "../images/pg.png",
+            "../images/postgresql.png",
             "../images/knex.png",
             "../images/chrome.png"
           ],
           solo: false,
-          contributions:
-            "In this mammoth of a project, my skills were used to sort the data. Specifically gather all the speed tests that had been run and display the users rank according to their ISP and also gather each ISP's average test results and rank them compared to other ISPs. I did not play any role in the CSS of this project."
+          contributions: ""
         },
         {
-          id: 2,
+          id: 5,
           type: "Web Development",
           title: "Fable Forum",
           posterURL: "../images/fable.jpg",
@@ -126,7 +175,7 @@ class Home extends React.Component {
           techImages: [
             "../images/html5.png",
             "../images/css3.png",
-            "../images/javascript.png",
+            "../images/js.png",
             "../images/node.png",
             "../images/express.png",
             "../images/pg.png",
@@ -134,11 +183,10 @@ class Home extends React.Component {
             "../images/handlebars.png"
           ],
           solo: false,
-          contributions:
-            "I had my hand in every aspect of this project, from building the server, database, schemas, queries, to everything in between. I also designed the logo!"
+          contributions: ""
         },
         {
-          id: 3,
+          id: 6,
           type: "Web Development",
           title: "MOOD.",
           posterURL: "../images/mood.jpg",
@@ -150,43 +198,13 @@ class Home extends React.Component {
           techImages: [
             "../images/html5.png",
             "../images/css3.png",
-            "../images/javascript.png"
+            "../images/js.png"
           ],
           solo: true,
-          contributions:
-            "MOOD. was a solo project. Everything was designed and developed by solely myself."
+          contributions: ""
         },
         {
-          id: 4,
-          type: "Web Development",
-          title: "Angular Inbox",
-          posterURL: "../images/inbox.jpg",
-          link: "https://angular-inbox-5739b.firebaseapp.com/",
-          github: "https://github.com/davefrancese/inbox",
-          description:
-            "As a human being living in the states we are always checking emails without a thought of the actual functionality of the inbox. As a developer, I had to try it out for myself!",
-          tech: [
-            "HTML5",
-            "CSS3",
-            "JavaScript",
-            "AngularJS",
-            "Node.js",
-            "Express"
-          ],
-          techImages: [
-            "../images/html5.png",
-            "../images/css3.png",
-            "../images/javascript.png",
-            "../images/angular.png",
-            "../images/node.png",
-            "../images/express.png"
-          ],
-          solo: false,
-          contributions:
-            "Angular Inbox was a solo project. Everything was designed and developed by solely myself."
-        },
-        {
-          id: 5,
+          id: 7,
           type: "Web Development",
           title: "TODO",
           posterURL: "../images/todo.jpg",
@@ -207,7 +225,7 @@ class Home extends React.Component {
           techImages: [
             "../images/html5.png",
             "../images/css3.png",
-            "../images/javascript.png",
+            "../images/js.png",
             "../images/node.png",
             "../images/express.png",
             "../images/pg.png",
@@ -215,11 +233,10 @@ class Home extends React.Component {
             "../images/handlebars.png"
           ],
           solo: true,
-          contributions:
-            "TODO was a solo project. Everything was designed and developed by solely myself."
+          contributions: ""
         },
         {
-          id: 6,
+          id: 8,
           type: "Graphic Design",
           title: "Moon Energy Guide",
           posterURL: "../images/MEGLogo.jpg",
@@ -235,28 +252,26 @@ class Home extends React.Component {
             "../images/MEGPage.jpg"
           ],
           solo: true,
-          contributions:
-            "The Mood Energy Guide was a solo project. Everything was designed by solely myself."
-        },
-        {
-          id: 7,
-          type: "Graphic Design",
-          title: "Tonic",
-          posterURL: "../images/tonicLogo.jpg",
-          link: "",
-          github: "",
-          description:
-            "A logo for the simple, collected, and clean living lifestyle that this journal provides. Dive into this holistic approach on a day to day basis! From organic recipes to non-toxic home supplies, or just food for thought.",
-          tech: ["Adobe Illustrator", "Adobe Photoshop"],
-          techImages: ["../images/photoshop.png", "../images/illustrator.png"],
-          designImages: [
-            "../images/tonicLogo.jpg",
-            "../images/tonicLogoFull.jpg"
-          ],
-          solo: true,
-          contributions:
-            "Tonic was a solo project. Everything was designed by solely myself."
+          contributions: ""
         }
+        // {
+        //   id: 9,
+        //   type: "Graphic Design",
+        //   title: "Tonic",
+        //   posterURL: "../images/tonicLogo.jpg",
+        //   link: "",
+        //   github: "",
+        //   description:
+        //     "A logo for the simple, collected, and clean living lifestyle that this journal provides. Dive into this holistic approach on a day to day basis! From organic recipes to non-toxic home supplies, or just food for thought.",
+        //   tech: ["Adobe Illustrator", "Adobe Photoshop"],
+        //   techImages: ["../images/photoshop.png", "../images/illustrator.png"],
+        //   designImages: [
+        //     "../images/tonicLogo.jpg",
+        //     "../images/tonicLogoFull.jpg"
+        //   ],
+        //   solo: true,
+        //   contributions: ""
+        // }
       ]
     };
   }
@@ -265,7 +280,7 @@ class Home extends React.Component {
     return (
       <div>
         <Header />
-        <Bio />
+        {/* <Bio /> */}
         <ProjectList projects={this.state.projects} />
         <Contact />
       </div>
@@ -274,3 +289,32 @@ class Home extends React.Component {
 }
 
 export default Home;
+
+// {
+//   id: 4,
+//   type: "Web Development",
+//   title: "Angular Inbox",
+//   posterURL: "../images/inbox.jpg",
+//   link: "https://angular-inbox-5739b.firebaseapp.com/",
+//   github: "https://github.com/davefrancese/inbox",
+//   description:
+//     "As a human being living in the states we are always checking emails without a thought of the actual functionality of the inbox. As a developer, I had to try it out for myself!",
+//   tech: [
+//     "HTML5",
+//     "CSS3",
+//     "JavaScript",
+//     "AngularJS",
+//     "Node.js",
+//     "Express"
+//   ],
+//   techImages: [
+//     "../images/html5.png",
+//     "../images/css3.png",
+//     "../images/js.png",
+//     "../images/angular.png",
+//     "../images/node.png",
+//     "../images/express.png"
+//   ],
+//   solo: false,
+//   contributions: ""
+// },
