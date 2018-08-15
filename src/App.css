@@ -150,13 +150,24 @@ h3 {
   /* border-radius: 5px; */
 }
 
+.screenshots {
+  width: 350px;
+  margin-right: 5px;
+}
+
 .project-writeup {
   /* background: grey; */
 }
 
-.project-type {
+.project-title {
   letter-spacing: 20px;
   margin-left: 20px;
+}
+
+.project-screenshots {
+}
+
+.project-walkthrough {
 }
 
 .project-poster {

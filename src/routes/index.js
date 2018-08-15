@@ -15,6 +15,12 @@ class index extends React.Component {
           posterURL: "../images/emaily2.jpg",
           link: "https://df-emaily.herokuapp.com",
           github: "https://github.com/davefrancese/emaily-server",
+          screenShots: [
+            "../images/emailySS1.jpg",
+            "../images/emailySS2.jpg",
+            "../images/emailySS3.jpg"
+          ],
+          embedVideo: "https://www.youtube.com/embed/5No9qtE7RaE?rel=0",
           description:
             "Login via Google+ and start sending surveys to your users to get feedback to see how people are liking your services. Emaily accepts credit cards thanks to Stripe handling all the payments. As soon as you pay for credits, start a survey campaign and get feedback from as many emails as you would like. See the survey results directly in your Dashboard.",
           tech: [
