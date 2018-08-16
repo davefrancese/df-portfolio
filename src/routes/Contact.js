@@ -19,7 +19,7 @@ class Contact extends React.Component {
             </a>
           </p>
           <p>
-            <a href="https://www.linkedin.com/in/dave-francese/">
+            <a href="https://www.linkedin.com/in/davefrancese/">
               <i className="fab fa-linkedin icon" />linkedIn.com/davefrancese
             </a>
           </p>
