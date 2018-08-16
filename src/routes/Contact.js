@@ -14,12 +14,12 @@ class Contact extends React.Component {
             </a>
           </p>
           <p>
-            <a href="https://github.com/davefrancese">
+            <a href="https://github.com/davefrancese" target="_blank">
               <i className="fab fa-github icon" />github.com/davefrancese
             </a>
           </p>
           <p>
-            <a href="https://www.linkedin.com/in/davefrancese/">
+            <a href="https://www.linkedin.com/in/davefrancese/" target="_blank">
               <i className="fab fa-linkedin icon" />linkedIn.com/davefrancese
             </a>
           </p>
