@@ -61,6 +61,12 @@ class Home extends React.Component {
           posterURL: "../images/peak.jpg",
           link: "https://df-goal-coach.firebaseapp.com/signin",
           github: "https://github.com/davefrancese/goal-coach",
+          screenShots: [
+            "../images/goalCoachSS1.jpg",
+            "../images/goalCoachSS2.jpg",
+            "../images/goalCoachSS3.jpg"
+          ],
+          embedVideo: "https://www.youtube.com/embed/R7OTejFgu-0?rel=0",
           description:
             "Goal Coach allows for multiple users to sign on and see goals that their team wants to reach. It shows the goal and who added the goal. Anyone can add or complete these goals. Just log in with your email and a password and let people know what you want to accomplish!",
           tech: ["HTML5", "CSS3", "JavaScript", "React + Redux", "Firebase"],
@@ -83,6 +89,12 @@ class Home extends React.Component {
           posterURL: "../images/elephant.jpg",
           link: "https://df-reminder-pro.firebaseapp.com/",
           github: "https://github.com/davefrancese/reminder-pro",
+          screenShots: [
+            "../images/reminderProSS1.jpg",
+            "../images/reminderProSS2.jpg",
+            "../images/reminderProSS3.jpg"
+          ],
+          embedVideo: "https://www.youtube.com/embed/yShI_n5Y9pg?rel=0",
           description:
             "Never forget an event or task you have coming up. Reminder Pro allows users to add as many reminders as they would like, along with a date that the event or task is coming up. Even after navigating away from Reminder Pro, users' reminders will be there whenever they return. Visit Reminder Pro and never forget!",
           tech: [
@@ -113,6 +125,12 @@ class Home extends React.Component {
           posterURL: "../images/synth.jpg",
           link: "https://synth-lab.firebaseapp.com/",
           github: "https://github.com/davefrancese/synth-lab",
+          screenShots: [
+            "../images/synthLabSS1.jpg",
+            "../images/synthLabSS2.jpg",
+            "../images/synthLabSS3.jpg"
+          ],
+          embedVideo: "https://www.youtube.com/embed/4utfiq5J_5I?rel=0",
           description:
             "I love music, specifically old retro synthesizers. Synth Lab was built with responsiveness in mind. I used CSS Grid so that the images would resize and change columns depending on the users screen size. A small project for now, but in the future I would like to expand Synth Lab so that users can add more to the list.",
           tech: ["HTML5", "CSS3", "JavaScript", "React"],
@@ -132,6 +150,12 @@ class Home extends React.Component {
           posterURL: "../images/sloth.jpg",
           link: "https://speed-sleuth.firebaseapp.com/",
           github: "https://github.com/g64-sleuth",
+          screenShots: [
+            "../images/sleuthSS1.jpg",
+            "../images/sleuthSS2.jpg",
+            "../images/sleuthSS3.jpg"
+          ],
+          embedVideo: "https://www.youtube.com/embed/Ai6c9iGqIJM?rel=0",
           description:
             "Now that net neutrality is long gone, it is time to keep ISPs accountable for the speed users pay for. That is exactly what Sleuth is for. Users can run a download speed test and Sleuth will tell the user their ISP, their download speed, where they rank among other users with the same ISP that have also used Sleuth, and it will give them the highest ranking ISP based upon download speed.",
           tech: [
@@ -166,6 +190,12 @@ class Home extends React.Component {
           posterURL: "../images/fable.jpg",
           link: "https://prosepros-fable.herokuapp.com/",
           github: "https://github.com/davefrancese/fable",
+          screenShots: [
+            "../images/fableSS1.jpg",
+            "../images/fableSS2.jpg",
+            "../images/fableSS3.jpg"
+          ],
+          embedVideo: "https://www.youtube.com/embed/l3m4vGLNRpA?rel=0",
           description:
             "If you are a writer of short stories and want to hone in on your skills. Fable Forum is for you. Share your stories with other users and get feedback from those authors. Also, comment on other authors' stories and share your skills to help others. Just create an account and get to writing!",
           tech: [
@@ -198,6 +228,12 @@ class Home extends React.Component {
           posterURL: "../images/mood.jpg",
           link: "https://mood-q1.firebaseapp.com/",
           github: "https://github.com/davefrancese/moodProject",
+          screenShots: [
+            "../images/moodSS1.jpg",
+            "../images/moodSS2.jpg",
+            "../images/moodSS3.jpg"
+          ],
+          embedVideo: "https://www.youtube.com/embed/hJrmwzzpLfk?rel=0",
           description:
             "When trying to find new music to listen to, it can be pretty frustrating. A lot can depend on what kind of music you are feeling at that particular moment: the weather outside, your emotions, and also the overall vibe of the day. MOOD. sorts this out for you. Put in your location and how your feeling and MOOD. will generate a 10 song playlist for you to enjoy.",
           tech: ["HTML5", "CSS3", "JavaScript"],
@@ -216,6 +252,12 @@ class Home extends React.Component {
           posterURL: "../images/todo.jpg",
           link: "https://df-todos.herokuapp.com/",
           github: "https://github.com/davefrancese/todo-practice1",
+          screenShots: [
+            "../images/todosSS1.jpg",
+            "../images/todosSS2.jpg",
+            "../images/todosSS3.jpg"
+          ],
+          embedVideo: "https://www.youtube.com/embed/b_bcZv3nlhk?rel=0",
           description:
             "Server side rendering! I wanted to build a fully functional TODO application using only server side rendering. Add, update, and delete (complete) a todo. Even give it a priority level.",
           tech: [

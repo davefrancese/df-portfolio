@@ -25,8 +25,8 @@ class ProjectTemplate extends React.Component {
             </div>
             <div className="project-walkthrough">
               <iframe
-                width="560"
-                height="315"
+                height="100%"
+                className="walkthrough"
                 src={`${
                   this.props.projects[this.props.match.params.id].embedVideo
                 }`}
